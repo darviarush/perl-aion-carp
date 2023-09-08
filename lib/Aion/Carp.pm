@@ -41,7 +41,7 @@ __END__
 
 =head1 NAME
 
-B<Aion::Carp> — added stacktrace to exceptions
+Aion::Carp - added stacktrace to exceptions
 
 =head1 VERSION
 

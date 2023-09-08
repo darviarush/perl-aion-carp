@@ -1,6 +1,6 @@
 # NAME
 
-**Aion::Carp** — added stacktrace to exceptions
+Aion::Carp - added stacktrace to exceptions
 
 # VERSION
 
@@ -102,5 +102,6 @@ $ sudo cpm install -gvv
 Yaroslav O. Kosmina [dart@cpan.org](mailto:dart@cpan.org)
 
 # LICENSE
+
 
 ⚖ **GPLv3**

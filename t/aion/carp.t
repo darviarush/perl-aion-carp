@@ -1,6 +1,6 @@
 use common::sense; use open qw/:std :utf8/; use Test::More 0.98; use Carp::Always::Color; sub _mkpath_ { my ($p) = @_; length($`) && !-e $`? mkdir($`, 0755) || die "mkdir $`: $!": () while $p =~ m!/!g; $p } BEGIN { my $t = `pwd`; chop $t; $t .= '/' . __FILE__; my $s = '/tmp/.liveman/perl-aion-carp/aion/carp/'; `rm -fr $s` if -e $s; chdir _mkpath_($s) or die "chdir $s: $!"; open my $__f__, "<:utf8", $t or die "Read $t: $!"; $s = join "", <$__f__>; close $__f__; while($s =~ /^#\@> (.*)\n((#>> .*\n)*)#\@< EOF\n/gm) { my ($file, $code) = ($1, $2); $code =~ s/^#>> //mg; open my $__f__, ">:utf8", _mkpath_($file) or die "Write $file: $!"; print $__f__ $code; close $__f__; } } # # NAME
 # 
-# **Aion::Carp** — added stacktrace to exceptions
+# Aion::Carp - added stacktrace to exceptions
 # 
 # # VERSION
 # 
@@ -102,6 +102,7 @@ Aion::Carp->import;
 # Yaroslav O. Kosmina [dart@cpan.org](mailto:dart@cpan.org)
 # 
 # # LICENSE
+# 
 # 
 # ⚖ **GPLv3**
 	done_testing;
