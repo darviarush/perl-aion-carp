@@ -2,7 +2,7 @@ package Aion::Carp;
 use 5.008001;
 use common::sense;
 
-our $VERSION = "1.3";
+our $VERSION = "1.5";
 
 use Carp qw//;
 use Scalar::Util qw//;
@@ -45,7 +45,7 @@ Aion::Carp - added stacktrace to exceptions
 
 =head1 VERSION
 
-1.3
+1.5
 
 =head1 SYNOPSIS
 
