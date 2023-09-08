@@ -2,7 +2,7 @@ package Aion::Carp;
 use 5.008001;
 use common::sense;
 
-our $VERSION = "0.01";
+our $VERSION = "1.0";
 
 use Carp qw//;
 use Scalar::Util qw//;
@@ -41,7 +41,7 @@ __END__
 
 =head1 NAME
 
-B<Aion::Carp> — added to exception stacktrace.
+B<Aion::Carp> — added stacktrace to exceptions
 
 =head1 VERSION
 
@@ -118,7 +118,7 @@ Replace C<$SIG{__DIE__}> to C<handler>.
 Add to B<cpanfile> in your project:
 
 	on 'test' => sub {
-		requires 'Aion::Carp', 
+		requires 'Aion::Carp',
 			git => 'https://github.com/darviarush/perl-aion-carp.git',
 			ref => 'master',
 		;

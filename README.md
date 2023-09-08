@@ -1,6 +1,6 @@
 # NAME
 
-**Aion::Carp** — added to exception stacktrace.
+**Aion::Carp** — added stacktrace to exceptions
 
 # VERSION
 
@@ -84,7 +84,7 @@ Add to **cpanfile** in your project:
 
 ```cpanfile
 on 'test' => sub {
-	requires 'Aion::Carp', 
+	requires 'Aion::Carp',
 		git => 'https://github.com/darviarush/perl-aion-carp.git',
 		ref => 'master',
 	;
