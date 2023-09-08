@@ -4,7 +4,7 @@ Aion::Carp - added stacktrace to exceptions
 
 # VERSION
 
-1.1
+1.3
 
 # SYNOPSIS
 
