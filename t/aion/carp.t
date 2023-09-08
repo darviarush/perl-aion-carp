@@ -4,7 +4,7 @@ use common::sense; use open qw/:std :utf8/; use Test::More 0.98; use Carp::Alway
 # 
 # # VERSION
 # 
-# 1.0
+# 1.1
 # 
 # # SYNOPSIS
 # 
@@ -97,12 +97,15 @@ Aion::Carp->import;
 # $ sudo cpm install -gvv
 
 # 
+# # SEE ALSO
+# 
+# * `Carp::Always`
+# 
 # # AUTHOR
 # 
 # Yaroslav O. Kosmina [dart@cpan.org](mailto:dart@cpan.org)
 # 
 # # LICENSE
-# 
 # 
 # ⚖ **GPLv3**
 	done_testing;

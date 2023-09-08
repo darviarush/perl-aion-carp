@@ -2,7 +2,7 @@ package Aion::Carp;
 use 5.008001;
 use common::sense;
 
-our $VERSION = "1.0";
+our $VERSION = "1.1";
 
 use Carp qw//;
 use Scalar::Util qw//;
@@ -45,7 +45,7 @@ Aion::Carp - added stacktrace to exceptions
 
 =head1 VERSION
 
-1.0
+1.1
 
 =head1 SYNOPSIS
 
@@ -127,6 +127,14 @@ Add to B<cpanfile> in your project:
 And run command:
 
 	$ sudo cpm install -gvv
+
+=head1 SEE ALSO
+
+=over
+
+=item * C<Carp::Always>
+
+=back
 
 =head1 AUTHOR
 

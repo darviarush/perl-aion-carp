@@ -4,7 +4,7 @@ Aion::Carp - added stacktrace to exceptions
 
 # VERSION
 
-1.0
+1.1
 
 # SYNOPSIS
 
@@ -97,11 +97,14 @@ And run command:
 $ sudo cpm install -gvv
 ```
 
+# SEE ALSO
+
+* `Carp::Always`
+
 # AUTHOR
 
 Yaroslav O. Kosmina [dart@cpan.org](mailto:dart@cpan.org)
 
 # LICENSE
-
 
 ⚖ **GPLv3**

@@ -4,7 +4,7 @@ Aion::Carp - added stacktrace to exceptions
 
 # VERSION
 
-1.0
+1.1
 
 # SYNOPSIS
 
@@ -86,6 +86,10 @@ Add to **cpanfile** in your project:
 And run command:
 
         $ sudo cpm install -gvv
+
+# SEE ALSO
+
+- `Carp::Always`
 
 # AUTHOR
 
