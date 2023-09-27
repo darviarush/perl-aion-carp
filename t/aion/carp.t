@@ -103,7 +103,7 @@ Aion::Carp->import;
 # 
 # # AUTHOR
 # 
-# Yaroslav O. Kosmina [dart@cpan.org](mailto:dart@cpan.org)
+# Yaroslav O. Kosmina [dart@cpan.org](dart@cpan.org)
 # 
 # # LICENSE
 # 
