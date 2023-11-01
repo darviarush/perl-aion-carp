@@ -1,3 +1,4 @@
+[![Actions Status](https://github.com/darviarush/perl-aion-carp/actions/workflows/test.yml/badge.svg)](https://github.com/darviarush/perl-aion-carp/actions) [![MetaCPAN Release](https://badge.fury.io/pl/Aion-Carp.svg)](https://metacpan.org/release/Aion-Carp)
 # NAME
 
 Aion::Carp - added stacktrace to exceptions
@@ -103,8 +104,12 @@ $ sudo cpm install -gvv
 
 # AUTHOR
 
-Yaroslav O. Kosmina [dart@cpan.org](mailto:dart@cpan.org)
+Yaroslav O. Kosmina [dart@cpan.org](dart@cpan.org)
 
 # LICENSE
 
 ⚖ **GPLv3**
+
+# COPYRIGHT
+
+The Aion::Surf module is copyright © 2023 Yaroslav O. Kosmina. Rusland. All rights reserved.
