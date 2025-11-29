@@ -3,7 +3,16 @@ name = "Aion-Carp"
 authority="cpan:DART"
 license="gpl_3"
 
-badges = ["github-actions/test.yml", "metacpan", "coveralls"]
 markdown_maker = "Liveman::MinillaPod2Markdown"
 module_maker="ModuleBuildTiny"
 static_install = "auto"
+
+[unsupported]
+os = [
+    "MSWin32",
+    "os2",
+    "VMS",
+    "NetWare",
+    "symbian",
+    "dos"
+]
