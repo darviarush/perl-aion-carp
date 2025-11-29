@@ -12,9 +12,9 @@ sub handler {
 
     if(!ref $x) {
         no utf8; use bytes;
-        if($x =~ s/\n[ \t]+\.\.\.propagated at .* line \d+\.\n\z/\n/a) {}
+        if($x =~ s/\n[ \t]+\.\.\.propagated at .* line \d+\.\n\z/\n/) {}
         else {
-            $x =~ s/ at .*? line \d+\.\n\z//a;
+            $x =~ s/ at .*? line \d+\.\n\z//;
             my $c = Carp::longmess('');
             $c =~ s/^( at .*? line \d+)\.\n/$x\n\tdie(...) called$1\n/;
             $x = $c;
