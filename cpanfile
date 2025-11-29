@@ -2,6 +2,7 @@ requires 'perl', '5.008001';
 
 on 'test' => sub {
 	requires 'Test::More', '0.98';
+	requires 'Term::ANSIColor', '3.02';
 
 	requires 'Cwd';
 	requires 'Data::Dumper';
@@ -11,7 +12,6 @@ on 'test' => sub {
 	requires 'File::Slurper';
 	requires 'File::Spec';
 	requires 'String::Diff';
-	requires 'Term::ANSIColor';
 	requires 'open';
 };
 
