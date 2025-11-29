@@ -15,7 +15,7 @@ on 'test' => sub {
 	requires 'open';
 };
 
-requires 'Carp';
+requires 'Carp', '1.50';
 requires 'Scalar::Util';
 requires 'bytes';
 requires 'common::sense';
