@@ -23,7 +23,8 @@ sub handler {
     elsif(Scalar::Util::reftype($x) eq "HASH" && !exists $x->{STACKTRACE}) {
         my $c = Carp::longmess("");
         $c =~ s/^(.*\d+)\.\n/$1\n/;
-        $x->{STACKTRACE} = "die(...) called$c";
+        $c =~ s/^/die(...) called/;
+        $x->{STACKTRACE} = $c;
     }
 
     die $x;
