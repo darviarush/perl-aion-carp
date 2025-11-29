@@ -21,9 +21,9 @@ sub handler {
         }
     }
     elsif(Scalar::Util::reftype($x) eq "HASH" && !exists $x->{STACKTRACE}) {
-        my $c = Carp::longmess("die(...) called");
+        my $c = Carp::longmess("");
         $c =~ s/^(.*\d+)\.\n/$1\n/;
-        $x->{STACKTRACE} = $c;
+        $x->{STACKTRACE} = "die(...) called$c";
     }
 
     die $x;
