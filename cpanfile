@@ -1,6 +1,8 @@
 requires 'perl', '5.008001';
 
 on 'test' => sub {
+	requires 'Test::More', '0.98';
+
 	requires 'Cwd';
 	requires 'Data::Dumper';
 	requires 'File::Basename';
@@ -10,7 +12,6 @@ on 'test' => sub {
 	requires 'File::Spec';
 	requires 'String::Diff';
 	requires 'Term::ANSIColor';
-	requires 'Test::More';
 	requires 'open';
 };
 
