@@ -1,11 +1,11 @@
-[![Actions Status](https://github.com/darviarush/perl-aion-carp/actions/workflows/test.yml/badge.svg)](https://github.com/darviarush/perl-aion-carp/actions) [![MetaCPAN Release](https://badge.fury.io/pl/Aion-Carp.svg)](https://metacpan.org/release/Aion-Carp) [![Coverage](https://raw.githubusercontent.com/darviarush/perl-aion-carp/master/doc/badges/total.svg)](https://fast2-matrix.cpantesters.org/?dist=Aion-Carp+1.5)
+[![Actions Status](https://github.com/darviarush/perl-aion-carp/actions/workflows/test.yml/badge.svg)](https://github.com/darviarush/perl-aion-carp/actions) [![MetaCPAN Release](https://badge.fury.io/pl/Aion-Carp.svg)](https://metacpan.org/release/Aion-Carp) [![Coverage](https://raw.githubusercontent.com/darviarush/perl-aion-carp/master/doc/badges/total.svg)](https://fast2-matrix.cpantesters.org/?dist=Aion-Carp+1.6)
 # NAME
 
 Aion::Carp - добавляет трассировку стека в исключения
 
 # VERSION
 
-1.5
+1.6
 
 # SYNOPSIS
 
